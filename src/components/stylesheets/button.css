@@ -1,0 +1,30 @@
+.button {
+    background: white;
+    display: flex;
+    border: 1px solid #921029;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    height: 25%;
+    min-width: 25%;
+}
+
+.button[data-size="3"] {
+    width: 75%;
+}
+
+.button[data-value="null"] {
+    pointer-events: none;
+}
+
+.button:hover {
+    background: #d7ddd3;
+    cursor: default;
+}
+
+
+

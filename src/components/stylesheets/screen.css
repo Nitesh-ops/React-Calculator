@@ -1,0 +1,9 @@
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #433437;
+    height: 20%;
+    color: white;
+    font-size: 24px;
+}
